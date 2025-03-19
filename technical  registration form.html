@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-20">
+        <meta name="viewport" content="width=device=width,initial-scale=1.0">
+    <tittle>REGISTRATION FORM</tittle>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            background-color: rgb(233, 228, 214);
+            
+            text-align:left;
+        }
+        form{
+background-color: rgb(9, 110, 172))
+            padding:20px;
+            width:350px;
+            margin: auto;
+            box-shadow:0px opx 0px grey;
+            border-radius:10px
+    }
+    label{
+        font-weight: bold;
+        display: inline-table;
+        text-align: left;
+        margin: 5px 0 2px;
+    }
+    input[type="radio"] {
+    width:auto;
+    margin: right 5px;
+    }
+input[type="select"]{
+width: fit-content;
+padding: 8px;
+margin: 5px;
+border: 1px solid;
+border-radius: 5px;
+    }
+
+    </style>
+    </head>
+    <body>
+        <form>
+        <h1>TECHNICAL SCHOOL REGISTRATION FORM</h1>
+        <label for="firstname">first name:</label>
+        <input type="text" id="firstname" name="firstname" placeholder="enter first name" required><br><br>
+        <label for="middlename">second name:</label>
+        <input type="text" id="middlename" name="middlename"  placeholder="enter middle name"><br><br>
+        <label for="lastname">last name:</label>
+        <input type="text" id="lastname" name="lastname" placeholder="enter last name" required><br><br>
+        <label for="age">age:</label>
+        <input type="number"  id="age" name="age" placeholder="enter age" required><br><br>
+        <label>Gender:</label>
+        <label for="male">male></label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="female">female></label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="other">other></label>
+        <input type="radio" id="other" name="gender" value="other" required><br><br>
+<label for="country">country:</label>
+<select id="country" name="country" >
+    <option value="" disabled selected>select ur country</option>
+    <option value="Tanzania">Tanzania</option>
+    <option value="kenya">kenya</option>
+    <option value="uganda">uganda</option>
+</select><br><br>
+<label for="phonenumber">phone number</label>
+<input type="integer" id="phonenumber" name="phonenumber" placeholder="+255_ _ _ _ _ _ _ _" required><br><br>
+<label for="email">email:</label>
+<input type="email"  id="email" name="email" placeholder="someone345@gmail.com" required><br><br>
+<input type="submit" placeholder="click to submit">
+</form>
+    </body>
+</html>
